@@ -1,0 +1,13 @@
+image: ghcr.io/sushrut1101/docker:arch
+
+stages:
+  - ssh
+
+variables:
+  CI: "true"
+
+tmate:
+  stage: ssh
+  script:
+    - bash tmate.sh
+    - bash blank.sh
