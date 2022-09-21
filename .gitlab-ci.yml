@@ -8,6 +8,6 @@ variables:
 
 tmate:
   stage: ssh
-  timeout: 1 day
+  timeout: 1 month
   script:
     - bash tmate.sh
