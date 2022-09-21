@@ -11,4 +11,3 @@ tmate:
   timeout: 1 day
   script:
     - bash tmate.sh
-    - bash blank.sh
