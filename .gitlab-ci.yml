@@ -5,9 +5,11 @@ stages:
 
 variables:
   CI: "true"
+  TERM: "xterm-256color"
 
 tmate:
   stage: ssh
   timeout: 1 month
   script:
-    - bash tmate.sh
+    - cd
+    - tmate -F 
